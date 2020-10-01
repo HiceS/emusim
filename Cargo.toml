@@ -1,0 +1,15 @@
+[package]
+name = "emu_sim"
+version = "0.1.0"
+authors = ["Shawn Hice <shawnhice@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+src = "./src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2.68"
+log = "0.4.11"
